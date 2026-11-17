@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-labelledby="title desc">
   <title id="title">Profile picture placeholder</title>
-  <desc id="desc">A generic person silhouette in Berkeley blue and California gold.</desc>
-  <circle cx="240" cy="240" r="240" fill="#002676"/>
-  <circle cx="240" cy="174" r="78" fill="#FDB515"/>
-  <path d="M92 432c10-105 67-166 148-166s138 61 148 166z" fill="#FDB515"/>
+  <desc id="desc">A generic person silhouette in TutorWays ink and light.</desc>
+  <rect width="480" height="480" fill="#14172B"/>
+  <circle cx="240" cy="174" r="78" fill="#C4C8D8"/>
+  <path d="M92 480c0-120 67-214 148-214s148 94 148 214z" fill="#C4C8D8"/>
 </svg>

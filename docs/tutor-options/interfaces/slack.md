@@ -6,6 +6,38 @@ Complete
 [Data 8 Getting Started](../../how-to-use-our-bots/data8/getting-started.md)
 first.
 
+<div class="at-a-glance" markdown>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">Who it's for</span>
+
+Course staff with a Slack workspace
+
+</div>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">You'll need</span>
+
+[Getting Started](../../how-to-use-our-bots/data8/getting-started.md) completed and permission to install apps in the workspace
+
+</div>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">Steps</span>
+
+6
+
+</div>
+
+<div class="at-a-glance__tile at-a-glance__tile--result" markdown>
+<span class="at-a-glance__label">You'll end with</span>
+
+A Slack app that answers mentions, direct messages and `/tutor`
+
+</div>
+
+</div>
+
 <div class="outline-grid" markdown>
 
 <div class="outline-card" markdown>

@@ -1,16 +1,15 @@
-site_name: LLM Tutors For All
-site_description: Exploring the performance and cost tradeoffs of deploying LLM tutors across services.
-site_url: https://llm-tutors-for-all.github.io/Documentation/
-repo_url: https://github.com/LLM-Tutors-For-All/Documentation
-repo_name: LLM-Tutors-For-All/Documentation
+site_name: TutorWays
+site_description: Documentation for TutorWays, an open benchmarking framework for AI tutors and the ways they reach students.
+site_url: https://tutorways.github.io/Documentation/
+repo_url: https://github.com/tutorways/Documentation
+repo_name: tutorways/Documentation
 
 theme:
   name: material
-  font:
-    text: IBM Plex Sans
-    code: IBM Plex Mono
-  logo: assets/llm-tfa-logo.png
-  favicon: assets/llm-tfa-logo.png
+  custom_dir: overrides
+  font: false
+  logo: assets/brand/mark-white.svg
+  favicon: assets/brand/favicon.svg
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -28,6 +27,7 @@ theme:
     - navigation.sections
     - navigation.top
     - content.code.copy
+    - content.tooltips
     - search.highlight
     - search.suggest
 
@@ -69,7 +69,16 @@ plugins:
   - search
 
 markdown_extensions:
+  - abbr
   - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
   - pymdownx.details
   - attr_list
   - md_in_html
@@ -86,5 +95,9 @@ extra_css:
 
 extra_javascript:
   - javascripts/copy-tutor.js
+  - javascripts/steps.js
+  - javascripts/section-chips.js
+  - javascripts/journey.js
+  - javascripts/landing.js
 
 strict: true

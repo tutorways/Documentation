@@ -1,6 +1,6 @@
 # Model Options
 
-LLM Tutors For All separates each tutor's **knowledge base** from its
+TutorWays separates each tutor's **knowledge base** from its
 **brain** so that course information can be evaluated independently from the
 model that generates responses.
 

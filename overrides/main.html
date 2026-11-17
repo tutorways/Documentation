@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  {#- Preload the brand fonts so headings and tabs never render in a fallback
+      font first (that swap made the tabs jump sideways on every page load). -#}
+  {%- for font in ["outfit-800", "outfit-700", "outfit-500", "atkinson-400", "atkinson-700"] %}
+  <link rel="preload" href="{{ ('assets/fonts/' ~ font ~ '.woff2') | url }}" as="font" type="font/woff2" crossorigin>
+  {%- endfor %}
+{% endblock %}
+
+{% block content %}
+  {#- M1: on phones and tablets, list the other pages in this section as chips,
+      so readers don't have to find the menu button. Hidden on desktop. -#}
+  {%- if page.parent and not page.is_homepage %}
+    {%- set siblings = page.parent.children | selectattr("is_page") | list %}
+    {%- if siblings | length > 1 %}
+  <nav class="section-chips" aria-label="In this section">
+    <p class="section-chips__label">In this section</p>
+    <ul class="section-chips__list">
+      {%- for sibling in siblings %}
+      <li>
+        <a class="section-chips__chip" href="{{ sibling.url | url }}"{% if sibling == page %} aria-current="page"{% endif %}>{{ sibling.title }}</a>
+      </li>
+      {%- endfor %}
+    </ul>
+  </nav>
+    {%- endif %}
+  {%- endif %}
+
+  {{ super() }}
+
+  {#- P2: the route continues from the page into the next stop. -#}
+  {%- if not page.is_homepage and (page.next_page or page.previous_page) %}
+  <nav class="page-route" aria-label="Previous and next page">
+    {%- if page.next_page %}
+    <div class="page-route__stem" aria-hidden="true"></div>
+    <a class="page-route__next" href="{{ page.next_page.url | url }}" rel="next">
+      <span class="page-route__text">
+        <span class="page-route__kicker">
+          Next{% if page.next_page.parent and page.next_page.parent.title %} · {{ page.next_page.parent.title }}{% endif %}
+        </span>
+        <span class="page-route__title">{{ page.next_page.title }}</span>
+      </span>
+      <svg class="page-route__arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11h12.17l-5.58-5.59L12 4l8 8-8 8-1.41-1.41L16.17 13H4z"/></svg>
+    </a>
+    {%- endif %}
+    {%- if page.previous_page and not page.previous_page.is_homepage %}
+    <a class="page-route__back" href="{{ page.previous_page.url | url }}" rel="prev">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20z"/></svg>
+      Back to {{ page.previous_page.title }}
+    </a>
+    {%- endif %}
+  </nav>
+  {%- endif %}
+{% endblock %}

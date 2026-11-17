@@ -12,6 +12,38 @@ separate so you can still use the main chat for other work.
 but the side chat keeps the tutor conversation from filling the primary
 thread.
 
+<div class="at-a-glance" markdown>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">Who it's for</span>
+
+Students and staff who use Muse
+
+</div>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">You'll need</span>
+
+A Muse account in a supported location
+
+</div>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">Steps</span>
+
+3
+
+</div>
+
+<div class="at-a-glance__tile at-a-glance__tile--result" markdown>
+<span class="at-a-glance__label">You'll end with</span>
+
+A Data 8 tutor in a Muse side chat
+
+</div>
+
+</div>
+
 <div class="guide-actions" markdown>
 [Open Muse](https://muse.ai){ .md-button .md-button--primary }
 [Download the tutor text](../assets/persistent-ais/data8-tutor-paste-into-chat.txt){ .md-button }
@@ -189,7 +221,7 @@ or accounts on their personal computer.
 ## Setup (skip any step already done; check ~/workspace/data8_sp26 first)
 
 1. Create ~/workspace/data8_sp26 and download
-   https://github.com/LLM-Tutors-For-All/Documentation/releases/download/data8-sp26-v1/data8sp26.zip into it (about 1 GB; use curl -fL).
+   https://github.com/tutorways/Documentation/releases/download/data8-sp26-v1/data8sp26.zip into it (about 1 GB; use curl -fL).
 2. Verify its SHA-256 equals
    0fe760f8a54227c3263b06f3d10ef80100db3128d30e3fef63792bcac134c6f3.
    If it does not match, delete the file, stop, and tell the owner.

@@ -9,6 +9,38 @@ over solution code or answer keys.
 Unlike the self-hosted CLI, Discord, and Slack options, you do not install
 the tutor locally or import a course archive yourself.
 
+<div class="at-a-glance" markdown>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">Who it's for</span>
+
+Students and staff who want a hosted tutor
+
+</div>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">You'll need</span>
+
+A Grok Bot account on an eligible paid plan
+
+</div>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">Steps</span>
+
+3
+
+</div>
+
+<div class="at-a-glance__tile at-a-glance__tile--result" markdown>
+<span class="at-a-glance__label">You'll end with</span>
+
+A hosted Data 8 tutor, with nothing installed locally
+
+</div>
+
+</div>
+
 <div class="guide-actions" markdown>
 [Add Data 8 Tutor to Grok Bot](https://x.ai/bot/3JTODK3i9jilU1aOo0gCo){ .md-button .md-button--primary }
 </div>

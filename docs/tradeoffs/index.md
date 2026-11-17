@@ -1,6 +1,6 @@
 # Architecture tradeoffs
 
-LLM Tutors For All documents not only what the current tutors do, but also
+TutorWays documents not only what the current tutors do, but also
 which supporting technologies are worth adopting as the project grows. This
 section records the **pros and cons** of several options that come up often in
 tutor design: retrieval-augmented generation, LangChain and LangGraph, vLLM,

@@ -2,7 +2,7 @@
 
 # Contact
 
-Questions about LLM Tutors For All? Meet the team and explore the project
+Questions about TutorWays? Meet the team and explore the project
 links below.
 
 </section>
@@ -47,7 +47,7 @@ links below.
 </article>
 
 <article class="contact-card">
-  <img src="../assets/contributors/profile-placeholder.svg" alt="Profile picture placeholder">
+  <img src="../assets/contributors/justin-le.webp" alt="Justin Le" style="object-position: 50% 25%">
   <div>
     <h2>Justin Le</h2>
     <p>Benchmark Researcher</p>
@@ -69,7 +69,7 @@ links below.
 </article>
 
 <article class="contact-card">
-  <img src="../assets/contributors/profile-placeholder.svg" alt="Profile picture placeholder">
+  <img src="../assets/contributors/lindsay-lai.webp" alt="Lindsay Lai" style="object-position: 50% 20%">
   <div>
     <h2>Lindsay Lai</h2>
     <p>Benchmark Researcher</p>
@@ -106,5 +106,5 @@ links below.
 
 ## Project links
 
-- [LLM Tutors For All on GitHub](https://github.com/LLM-Tutors-For-All)
-- [Documentation repository](https://github.com/LLM-Tutors-For-All/Documentation)
+- [TutorWays on GitHub](https://github.com/tutorways)
+- [Documentation repository](https://github.com/tutorways/Documentation)

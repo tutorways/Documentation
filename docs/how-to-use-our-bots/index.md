@@ -1,7 +1,7 @@
 # How to Use Our Bots
 
 This section contains the complete setup and usage instructions for every
-course bot in LLM Tutors For All.
+course bot in TutorWays.
 
 As bots for additional classes are added, each class will have its own area in
 the left navigation. That area will explain how to prepare the course tutor,

@@ -6,6 +6,38 @@ documented under [Persistent AIs](../../persistent-ais/index.md):
 [Grok Bot](../../persistent-ais/grok-bot.md) and
 [Muse](../../persistent-ais/muse.md).
 
+<div class="at-a-glance" markdown>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">Who it's for</span>
+
+Course staff running the self-hosted tutor
+
+</div>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">You'll need</span>
+
+Python 3, the tutor engine repository and an OpenRouter API key
+
+</div>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">Steps</span>
+
+4
+
+</div>
+
+<div class="at-a-glance__tile at-a-glance__tile--result" markdown>
+<span class="at-a-glance__label">You'll end with</span>
+
+A local tutor that answers Data 8 questions
+
+</div>
+
+</div>
+
 ## Current course
 
 ![Data 8 course logo.](../../assets/gallery/data8.png){ .course-logo-large }
@@ -58,7 +90,7 @@ The same response engine supports the local CLI, Discord, and Slack bots.
 
 - Python 3
 - A clone of the
-  [LLM-Tutors-For-All repository](https://github.com/LLM-Tutors-For-All/LLM-Tutors-For-All)
+  [tutor engine repository](https://github.com/tutorways/LLM-Tutors-For-All)
 - An [OpenRouter](https://openrouter.ai/) API key for generated answers
 
 ## 1. Create the environment
@@ -91,7 +123,7 @@ Open `.env`, keep OpenRouter as the provider, and add your API key:
 LLM_PROVIDER=openrouter
 OPENROUTER_API_KEY=your-api-key
 OPENROUTER_MODEL=openai/gpt-4o-mini
-OPENROUTER_APP_NAME=LLM Tutors For All
+OPENROUTER_APP_NAME=TutorWays
 ```
 
 `OPENROUTER_MODEL` selects the model used by the tutor. The default is

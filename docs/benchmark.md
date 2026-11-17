@@ -5,7 +5,7 @@ produce the right final answer. A useful tutor should recognize where a learner
 went wrong, offer an appropriate next step, avoid doing the work for them, and
 remain practical to deploy.
 
-LLM Tutors For All is building a reproducible benchmark for comparing both
+TutorWays is building a reproducible benchmark for comparing both
 **language models** and, later, complete **tutor systems** under consistent
 conditions. The goal is to help instructors and developers understand the
 tradeoffs among teaching quality, cost, speed, and deployment constraints.
@@ -85,7 +85,7 @@ reliability safeguards, and current development status.
 
 ## Project resources
 
-- [Benchmark repository](https://github.com/LLM-Tutors-For-All/benchmarks)
+- [Benchmark repository](https://github.com/tutorways/benchmarks)
 - [Inspect AI](https://inspect.aisi.org.uk/), the evaluation framework used by
   the project
 - [Model options](model-options/index.md) currently documented on this site

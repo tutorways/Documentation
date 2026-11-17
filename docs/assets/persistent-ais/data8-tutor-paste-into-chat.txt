@@ -42,7 +42,7 @@ or accounts on their personal computer.
 ## Setup (skip any step already done; check ~/workspace/data8_sp26 first)
 
 1. Create ~/workspace/data8_sp26 and download
-   https://github.com/LLM-Tutors-For-All/Documentation/releases/download/data8-sp26-v1/data8sp26.zip into it (about 1 GB; use curl -fL).
+   https://github.com/tutorways/Documentation/releases/download/data8-sp26-v1/data8sp26.zip into it (about 1 GB; use curl -fL).
 2. Verify its SHA-256 equals
    0fe760f8a54227c3263b06f3d10ef80100db3128d30e3fef63792bcac134c6f3.
    If it does not match, delete the file, stop, and tell the owner.

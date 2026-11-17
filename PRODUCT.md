@@ -8,7 +8,7 @@ web
 
 ## Users
 
-LLM Tutors For All serves three audiences with equal priority:
+TutorWays serves three audiences with equal priority:
 
 - instructors and developers evaluating or deploying educational tutors;
 - students learning how to access and use a tutor;
@@ -36,7 +36,7 @@ The initial implementation is grounded in UC Berkeley Data 8 Spring 2026 course 
 
 ## Brand Commitments
 
-Preserve the LLM Tutors For All name, current logo, and the Berkeley-inspired navy-and-gold identity. The voice should remain factual, transparent about work in progress, and welcoming to technical and non-technical readers.
+Name: TutorWays (formerly LLM Tutors For All; don't use the old name). Use the TW mark from `docs/assets/brand/`, the brand colors Ink `#14172B`, Light `#F4F5F7` and Coral `#F0553A`, Outfit ExtraBold headings over Atkinson Hyperlegible text, and square corners, matching tutorways.github.io. Coral is never used for text. The voice should remain factual, transparent about work in progress, and welcoming to technical and non-technical readers.
 
 ## Evidence on Hand
 

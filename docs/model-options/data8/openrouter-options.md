@@ -15,7 +15,7 @@ project's `.env` file:
 LLM_PROVIDER=openrouter
 OPENROUTER_API_KEY=your-api-key
 OPENROUTER_MODEL=openai/gpt-4o-mini
-OPENROUTER_APP_NAME=LLM Tutors For All
+OPENROUTER_APP_NAME=TutorWays
 ```
 
 Keep the API key private and never commit `.env`.

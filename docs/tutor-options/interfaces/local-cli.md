@@ -4,6 +4,38 @@ The command-line interface is the fastest way to test the tutor without
 configuring a chat platform. First complete
 [Data 8 Getting Started](../../how-to-use-our-bots/data8/getting-started.md).
 
+<div class="at-a-glance" markdown>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">Who it's for</span>
+
+Anyone testing the tutor before adding a chat platform
+
+</div>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">You'll need</span>
+
+[Getting Started](../../how-to-use-our-bots/data8/getting-started.md) completed
+
+</div>
+
+<div class="at-a-glance__tile" markdown>
+<span class="at-a-glance__label">Steps</span>
+
+None beyond Getting Started
+
+</div>
+
+<div class="at-a-glance__tile at-a-glance__tile--result" markdown>
+<span class="at-a-glance__label">You'll end with</span>
+
+Questions, chat and retrieval checks in your terminal
+
+</div>
+
+</div>
+
 ## Use it in the local CLI
 
 ### One question
